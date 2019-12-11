@@ -7,17 +7,17 @@ namespace SpiralMatrix
         static void Main()
         {
             Program p = new Program();
-            var spiralMatrix = p.SpiralMatrix(5);
+            var spiralMatrix = p.SpiralMatrix(50);
             p.PrintMatrix(spiralMatrix, 5);
         }
 
         void PrintMatrix(int[,] matr,int dim)
         {
-            for (int i = 0; i < dim; i++)
+            for (int i = 0; i < dim*dim; i++)
             {
-                for (int j = 0; j < dim; j++)
+                for (int j = 0; j < dim * dim; j++)
                 {
-                    Console.Write(matr[i,j]);
+                    Console.Write(matr[i,j]+" ; ");
                 }
                 Console.WriteLine();
             }
@@ -27,7 +27,7 @@ namespace SpiralMatrix
         {
             int[,] result = new int[N,N];
             int last_row, last_column, last_dim;
-            last_row =last_column=last_dim = N - 1;
+            last_row = last_column = last_dim = N - 1;
             //vars for watching and going through matrix
             int i,k = 0,l = 0;
             //temp var for values inititalize
@@ -47,25 +47,22 @@ namespace SpiralMatrix
                 for(i = l; i <= last_column; i++)
                 {
                     result[k, i] = values[temp];
-                    if (temp < values.Length)
-                        temp++;
+                    temp++;
                 }
                 k++;
                 for (i = k; i <= last_row;i++)
                 {
                     result[i, last_column] = values[temp];
-                    if (temp < values.Length)
-                        temp++;
+                    temp++;
                 }
                 last_column--;
 
                 if(k <= last_row)
                 {
-                    for (i = last_row; i >= l; i--)
+                    for (i = last_column; i >= l; i--)
                     {
-                        result[last_column, l] = values[temp];
-                        if(temp < values.Length)
-                            temp++;
+                        result[last_row, i] = values[temp];
+                        temp++;
                     }
                     last_row--;
                 }
@@ -74,8 +71,7 @@ namespace SpiralMatrix
                     for (i = last_row; i >= k; i--)
                     {
                         result[i, l] = values[temp];
-                        if (++temp == values.Length)
-                            continue;
+                        temp++;
                     }
                     l++;
                 }
