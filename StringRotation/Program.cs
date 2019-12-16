@@ -12,7 +12,7 @@ namespace StringRotation
                 Console.WriteLine("No");
         }
         /// <summary>
-        /// Given two string s1 and s2, write core cchecks if s2 is a rotation of s1,
+        /// Given two string s1 and s2, write code checks if s2 is a rotation of s1,
         /// using only one call of this method
         /// </summary>
         /// <param name="s1">Rotated srting</param>
@@ -20,8 +20,7 @@ namespace StringRotation
         /// <returns></returns>
         private bool IsSubstring(string s1,string s2)
         {
-            Console.WriteLine((s1+s1).Contains(s2));
-            return (s1.Length == s2.Length) ;
+            return (s1 + s1).Contains(s2) && s1.Length == s2.Length;
         }
     }
 }
