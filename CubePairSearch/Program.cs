@@ -5,7 +5,7 @@ namespace CubePairSearch
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
             PrintDict(GetCubePair());
@@ -30,8 +30,10 @@ namespace CubePairSearch
                     }
                     else
                     {
-                        List<Tuple<int, int>> t = new List<Tuple<int, int>>();
-                        t.Add(new Tuple<int, int>(a, b));
+                        List<Tuple<int, int>> t = new List<Tuple<int, int>>
+                        {
+                            new Tuple<int, int>(a, b)
+                        };
                         result.TryAdd(cube, t);
                     }
                 }

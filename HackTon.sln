@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralMatrix", "SpiralMatri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubePairSearch", "CubePairSearch\CubePairSearch.csproj", "{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRotation", "StringRotation\StringRotation.csproj", "{6B71B21A-9B22-4388-B3CA-05748F15C21D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B71B21A-9B22-4388-B3CA-05748F15C21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B71B21A-9B22-4388-B3CA-05748F15C21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B71B21A-9B22-4388-B3CA-05748F15C21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B71B21A-9B22-4388-B3CA-05748F15C21D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
