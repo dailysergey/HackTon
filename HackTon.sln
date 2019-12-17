@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralMatrix", "SpiralMatrix\SpiralMatrix.csproj", "{74BCA080-339A-4072-8D49-8A58F0F60A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubePairSearch", "CubePairSearch\CubePairSearch.csproj", "{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubePairSearch", "CubePairSearch\CubePairSearch.csproj", "{8AFEE3DA-C062-4BBB-8DB4-F7661D3AD19C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRotation", "StringRotation\StringRotation.csproj", "{6B71B21A-9B22-4388-B3CA-05748F15C21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringRotation", "StringRotation\StringRotation.csproj", "{6B71B21A-9B22-4388-B3CA-05748F15C21D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection", "Intersection\Intersection.csproj", "{84BECFD4-2629-4B2D-9DCE-1226E7A80B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection", "Intersection\Intersection.csproj", "{84BECFD4-2629-4B2D-9DCE-1226E7A80B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackMin", "StackMin\StackMin.csproj", "{A836E683-F48E-4BF6-90A5-D8C5074C4329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{84BECFD4-2629-4B2D-9DCE-1226E7A80B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BECFD4-2629-4B2D-9DCE-1226E7A80B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BECFD4-2629-4B2D-9DCE-1226E7A80B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A836E683-F48E-4BF6-90A5-D8C5074C4329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A836E683-F48E-4BF6-90A5-D8C5074C4329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A836E683-F48E-4BF6-90A5-D8C5074C4329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A836E683-F48E-4BF6-90A5-D8C5074C4329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
