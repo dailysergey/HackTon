@@ -20,7 +20,7 @@ namespace StringRotation
         /// <returns></returns>
         private bool IsSubstring(string s1,string s2)
         {
-            return (s1 + s1).Contains(s2) && s1.Length == s2.Length;
+            return s1.Length == s2.Length && (s1 + s1).Contains(s2);
         }
     }
 }
