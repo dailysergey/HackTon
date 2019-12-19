@@ -9,6 +9,13 @@ namespace PermutationString
             Console.WriteLine("Hello World!");
             IsPermutation("Hello", "leHlo");
         }
+
+        /// <summary>
+        /// Method checks the second string if it is the permutation of the first string.
+        /// </summary>
+        /// <param name="s1">Original string</param>
+        /// <param name="s2">Permutated string</param>
+        /// <returns></returns>
         private static bool IsPermutation(string s1, string s2)
         {
             char[] x = s1.ToCharArray();
